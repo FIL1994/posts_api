@@ -1,6 +1,7 @@
 # posts_api
 
 ## Setup Database
+> sqlite3 must be installed
 
 ### 1. Create DB
 
