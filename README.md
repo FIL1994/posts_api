@@ -1,4 +1,5 @@
-# posts_api
+# posts api
+ A simple post API written in Node and Rust 
 
 ## Setup Database
 > sqlite3 must be installed
