@@ -28,7 +28,7 @@ impl_web! {
         #[get("/")]
         #[content_type("json")]
         fn hello_world(&self) -> Result<PostsResponse, ()> {
-            let conn = sqlite::open("../my_db.db").unwrap();
+            let conn = sqlite::open("../my_db.sqlite").unwrap();
 
             let mut posts:Vec<Post> = vec![];
 
